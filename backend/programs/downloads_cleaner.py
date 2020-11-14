@@ -19,7 +19,7 @@ print("These are all your files in the downloads folder")
 for p in filesearch:
     mtime = datetime.datetime.fromtimestamp(os.path.getmtime(home+'/Downloads/'+p))
     duration = today - mtime
-    if duration.days > xdays and p.endsWith(".dmg" or ".exe") != True:
+    if duration.days > xdays and p.endswith(".dmg" or ".exe") != True:
         os.remove(home+'/Downloads/'+p)
         print(p+" has been removed")
         print(mtime)
