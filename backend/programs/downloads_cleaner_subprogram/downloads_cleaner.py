@@ -65,7 +65,7 @@ def instant_task():
         deleted_files_array = []
         try:
             #dmg, exe, app files arent going to be deleted
-            if (duration.days < xdays) and (p.find(".dmg" or ".exe" or ".app") == -1):
+            if (duration.days > xdays) and (p.find(".dmg" or ".exe" or ".app") == -1):
                 os.remove(home+'/Downloads/'+p)
                 deleted_files_array.append(p)
                 print(p+" has been removed")
