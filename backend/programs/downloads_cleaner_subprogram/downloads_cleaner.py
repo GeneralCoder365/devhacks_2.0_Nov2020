@@ -24,12 +24,12 @@ def stop_program():
 
 #passes data to the dat file for how the limit of how long (in days) a file can stay in the downloads folder
 def add_data_for_days(formatted_data):
-    cleanupdays_data_file = open("backend/programs/downloads_cleaner_subprogram/data.dat", "w+")
+    cleanupdays_data_file = open("backend/programs/downloads_cleaner_subprogram/cleaner_data.dat", "w+")
     cleanupdays_data_file.write(formatted_data)
     cleanupdays_data_file.close()
 
 def read_data_for_days():
-    with open("backend/programs/downloads_cleaner_subprogram/data.dat", "r") as days_data:
+    with open("backend/programs/downloads_cleaner_subprogram/cleaner_data.dat", "r") as days_data:
         user_days = days_data.readlines()
         return user_days
         user_days.close()
