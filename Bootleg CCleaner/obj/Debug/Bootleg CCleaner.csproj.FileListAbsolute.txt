@@ -1,0 +1,15 @@
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\bin\Debug\Bootleg CCleaner.exe.config
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\bin\Debug\Bootleg CCleaner.exe
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\bin\Debug\Bootleg CCleaner.pdb
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg CCleaner.csprojAssemblyReference.cache
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\MainWindow.g.cs
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\App.g.cs
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg CCleaner_MarkupCompile.cache
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg CCleaner_MarkupCompile.lref
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\MainWindow.baml
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg CCleaner.g.resources
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg_CCleaner.Properties.Resources.resources
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg CCleaner.csproj.GenerateResource.cache
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg CCleaner.csproj.CoreCompileInputs.cache
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg CCleaner.exe
+C:\Users\rjlea\Source\Repos\GeneralCoder365\devhacks_2.0_Nov2020\Bootleg CCleaner\obj\Debug\Bootleg CCleaner.pdb
