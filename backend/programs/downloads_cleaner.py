@@ -27,13 +27,13 @@ def stop_program():
 
 #passes data to the dat file for how the limit of how long (in days) a file can stay in the downloads folder
 def add_data_for_days(formatted_data):
-    cleanupdays_data_file = open("data.dat", "w")
+    cleanupdays_data_file = open("backend/programs/workflow_preset_subprogram/data.dat", "w")
     cleanupdays_data_file.write(formatted_data)
     cleanupdays_data_file.close()
 
 #passes data to dat file for routine scheduling periods
 def add_data_for_runtime(formatted_data):
-    runtime_data_file = open("runtime.dat", "w")
+    runtime_data_file = open("backend/programs/workflow_preset_subprogram/runtime.dat", "w")
     runtime_data_file.write(formatted_data)
     runtime_data_file.close()
 
