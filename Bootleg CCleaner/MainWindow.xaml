@@ -37,6 +37,5 @@
             </Button.Background>
         </Button>
         <TextBlock Height="33" Margin="169,45,143,0" TextWrapping="Wrap" Text="Presets" VerticalAlignment="Top" FontSize="20"/>
-
     </Grid>
 </Window>

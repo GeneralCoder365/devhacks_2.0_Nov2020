@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
+using System.Diagnostics;
 
 namespace Bootleg_CCleaner
 {
@@ -23,6 +25,20 @@ namespace Bootleg_CCleaner
         public MainWindow()
         {
             InitializeComponent();
+
+            //ProcessStartInfo start = new ProcessStartInfo();
+            //start.FileName = "";
+            //start.Arguments = args;
+            //start.UseShellExecute = true;
+            //start.RedirectStandardOutput = true;
+            //using (Process process = Process.Start(start))
+            //{
+            //    using (StreamReader reader = process.StandardOutput)
+            //    {
+            //        string result = reader.ReadToEnd();
+            //        Console.Write(result);
+            //    }
+            //}
         }
 
         private void Close_Button_Click(object sender, RoutedEventArgs e)
