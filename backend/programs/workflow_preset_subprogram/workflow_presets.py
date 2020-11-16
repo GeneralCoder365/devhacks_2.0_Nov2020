@@ -63,42 +63,6 @@ def master_preset_adder(preset_array):
     else:
         print("This preset already exists!")
 
-    # adds formatted data for new preset to preset_data.dat
-    # add_preset(format_preset(new_preset))
-
-    # gathers preset name
-    # new_preset_name = input("Please enter the name of the new preset(no spaces!): ")
-    # preset_urls = []
-
-    # gathers as many urls/absolute file paths the user wants for the preset
-    # more_urls = True
-    # while more_urls == True:
-        # url_or_application_or_file = input("Would you like to add a url or a file/application path? Please type 0 for a url and 1 for an application/file: ")
-        # url_application_file = input("Please enter the url or the ABSOLUTE file path(PLEASE USE / INSTEAD OF \) of the application/file you would like to add to the preset" 
-        # + "\n [please make sure that you have copied the full url!]"
-        # + "\n [please make sure your file path is formatted correctly!]: ")
-
-        # preset_urls.append(url_application_file)
-
-        # continue_adding_to_preset = input("Would you like to continue adding to this preset? 0 for yes and 1 for no: ")
-
-        # if(continue_adding_to_preset == "0"):
-            # more_urls = True
-        # elif(continue_adding_to_preset == "1"):
-            # more_urls = False
-        # else:
-            # print("Please enter a valid input!")
-            # more_urls = True
-    
-    # adds the preset name to the front of the array containing the urls/absolute file paths the user wants for the preset
-    # preset_urls.insert(0, new_preset_name)
-
-    # design/organization only!
-    # new_preset = preset_urls
-
-    # adds formatted data for new preset to preset_data.dat
-    # add_preset(format_preset(new_preset))
-
 
 
 # determines whether a given item to open is a url or an application/file's file_path
