@@ -11,8 +11,8 @@ except Exception as e:
 
 
 # Libraries to install:
-# wget, BeautifulSoup, requests, schedule
-packages_to_install = ["wget", "bs4", "requests", "schedule"]
+# wget, bs4, requests, schedule, PyDrive
+packages_to_install = ["wget", "bs4", "requests", "schedule", "PyDrive"]
 
 # initializes array to track names of failed package installations
 failed_package_installations = []
