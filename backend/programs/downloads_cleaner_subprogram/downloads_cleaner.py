@@ -16,14 +16,6 @@ home = os.path.expanduser('~')
 
 
 
-# takes user input on whether they want to change timer or run cleaner
-action = input("Enter 0 to run downloads cleaner \n"
-+ "Enter 1 to change the deletion time check\n"
-+ "Enter 2 to see the current deletion time check\n"
-+ "Action: ")
-
-
-
 #stops the program
 def stop_program():
     exit()
@@ -136,5 +128,12 @@ def master_downloads_cleanup_action_manager(action):
 
 
 
-# calls master function
-master_downloads_cleanup_action_manager(action)
+def master():
+    # takes user input on whether they want to change timer or run cleaner
+    action = input("Enter 0 to run downloads cleaner \n"
+    + "Enter 1 to change the deletion time check\n"
+    + "Enter 2 to see the current deletion time check\n"
+    + "Action: ")
+
+    # calls master function
+    master_downloads_cleanup_action_manager(action)

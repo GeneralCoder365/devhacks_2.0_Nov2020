@@ -11,21 +11,6 @@ except Exception as e:
 # Note: ALL DATA FOR THIS SUBPROGRAM IS STORED IN preset_data.dat
 
 
-# action 0 means new preset
-# action 1 preset_name means load said preset
-# action 2 preset_name means edit said preset
-# action 3 preset_name means delete said preset
-# action 4 means show all presets
-# action 5 means delete all presets
-action = input("Enter 0 to create a new preset (Ex: 0)\n"
-+ "Enter (1 [space] preset_name) of an existing preset to load that preset (Ex: 1 school)\n"
-+ "Enter (2 [space] preset_name) of an existing preset to edit that preset (Ex: 2 school)\n"
-+ "Enter (3 [space] preset_name) of an existing preset to delete that preset (Ex: 3 school)\n"
-+ "Enter 4 to see a list of all the existing presets and their data (Ex: 4)\n"
-+ "Enter 5 to delete all of the existing presets and their data (Ex: 5)\n"
-+ "Action: ")
-
-
 
 # formats a new preset's data to ready it for addition to the .dat file
 # child of master_preset_adder()
@@ -339,6 +324,20 @@ def master_preset_action_manager(action):
     else:
         print("Please enter a valid action!")
 
+def master():
+    # action 0 means new preset
+    # action 1 preset_name means load said preset
+    # action 2 preset_name means edit said preset
+    # action 3 preset_name means delete said preset
+    # action 4 means show all presets
+    # action 5 means delete all presets
+    action = input("Enter 0 to create a new preset (Ex: 0)\n"
+    + "Enter (1 [space] preset_name) of an existing preset to load that preset (Ex: 1 school)\n"
+    + "Enter (2 [space] preset_name) of an existing preset to edit that preset (Ex: 2 school)\n"
+    + "Enter (3 [space] preset_name) of an existing preset to delete that preset (Ex: 3 school)\n"
+    + "Enter 4 to see a list of all the existing presets and their data (Ex: 4)\n"
+    + "Enter 5 to delete all of the existing presets and their data (Ex: 5)\n"
+    + "Action: ")
 
-# calls master function
-master_preset_action_manager(action)
+    # calls master function
+    master_preset_action_manager(action)
