@@ -3,13 +3,14 @@ from pydrive.drive import GoogleDrive
 import os
 import webbrowser
 
+
 #Enter what file name you want to put in and the path to the file
 def master_office_to_drive_conversion(file, path):
     file_name = file
     
-    auth = GoogleAuth()
+    gauth = GoogleAuth()
 
-    auth.LocalWebserverAuth()
+    gauth.LocalWebserverAuth()
 
     drive = GoogleDrive(auth)
 
@@ -30,4 +31,4 @@ def file_iteration(drive_file_name, folder, google_drive):
         print("Trouble accessing the file")
 
 #For example I want my document to be named "3.1_Worksheet.docx" and I also put in a path to the file that I want uploaded to Google Drive
-master_office_to_drive_conversion("Week 5_ Beginner Slides - 10_30_2020.pptx", "D:/Week 5_ Beginner Slides - 10_30_2020.pptx")
+master_office_to_drive_conversion("3.1_Worksheet.docx", "/Users/salamunnuhin/Documents/3.1Worksheet.docx")
