@@ -48,7 +48,7 @@ namespace Bootleg_CCleaner
             Cleanup_TextBlock.MouseLeave += BackgroundLeaveHandler2;
 
             ProcessStartInfo start = new ProcessStartInfo();
-            start.FileName = "..\\..\\..\\program_executables\\workflow_presets.exe";
+            start.FileName = @"..\\..\\..\\program_executables\\workflow_presets.exe";
             start.Arguments = string.Format("\"{0}\" \"{1}\"", "get_presets", "");
             start.UseShellExecute = false;// Do not use OS shell
             start.CreateNoWindow = true; // We don't need new window
