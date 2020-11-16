@@ -6,8 +6,9 @@
     "\\backend\\programs",
     "\\backend\\programs\\downloads_cleaner_subprogram",
     "\\backend\\programs\\workflow_preset_subprogram",
-    "\\Bootleg CCleaner"
+    "\\Bootleg CCleaner",
+    "\\program_executables"
   ],
-  "SelectedNode": "\\Bootleg CCleaner\\MainWindow.xaml.cs",
+  "SelectedNode": "\\backend\\programs\\workflow_preset_subprogram\\workflow_presets.py",
   "PreviewInSolutionExplorer": false
 }
