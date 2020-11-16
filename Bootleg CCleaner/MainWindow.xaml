@@ -36,6 +36,10 @@
                 <ImageBrush ImageSource="Minimize Icon.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <TextBlock Height="33" Margin="169,45,143,0" TextWrapping="Wrap" Text="Presets" VerticalAlignment="Top" FontSize="20"/>
+      <TextBlock x:Name="Headline_Text" Height="33" Margin="169,45,143,0" TextWrapping="Wrap" Text="Presets" VerticalAlignment="Top" FontSize="20"/>
+      <ScrollViewer x:Name="Scroll_Grid" Margin="169,83,10,10">
+        <Grid x:Name="Viewing_Grid" Height="374">
+        </Grid>
+      </ScrollViewer>
     </Grid>
 </Window>
