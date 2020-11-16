@@ -15,7 +15,7 @@ def master_office_to_drive_conversion(file, path):
 
     gauth.LocalWebserverAuth()
 
-    drive = GoogleDrive(auth)
+    drive = GoogleDrive(gauth)
 
     path_search = path
      
@@ -26,7 +26,8 @@ def file_iteration(drive_file_name, folder, google_drive):
     try:
         if (os.path.exists(folder)) and (folder.endswith(".docx" or ".pptx" or "xlsx") == True):
                 f = google_drive.CreateFile({'title': drive_file_name}) 
-                f.SetContentFile(os.path.join(drive_file_name, folder)) 
+                # f.SetContentFile(os.path.join(drive_file_name, folder))
+                f.SetContentFile(os.path.join(folder, drive_file_name)) 
                 f.Upload()  
                 f = None
                 webbrowser.open('https://drive.google.com/drive/recent')
@@ -34,4 +35,4 @@ def file_iteration(drive_file_name, folder, google_drive):
         print("Trouble accessing the file")
 
 #For example I want my document to be named "3.1_Worksheet.docx" and I also put in a path to the file that I want uploaded to Google Drive
-master_office_to_drive_conversion("3.1_Worksheet.docx", "/Users/salamunnuhin/Documents/3.1Worksheet.docx")
+master_office_to_drive_conversion("Week 5_ Beginner Slides - 10_30_2020.pptx", "D:/Week 5_ Beginner Slides - 10_30_2020.pptx")
