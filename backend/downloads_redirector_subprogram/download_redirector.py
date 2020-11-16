@@ -15,6 +15,7 @@ d_file_list = []
 new_name = " "      
 
 def get_path(url):
+    setpath = ""
     with open(rel_path, "r+") as dat_file:
         dat_list = dat_file.readlines()
         i = 0
@@ -112,4 +113,4 @@ def list_compare(d_file_list):
             print("skip")
 
 
-get_files(url, setpath)
+get_files(url, get_path(url))
