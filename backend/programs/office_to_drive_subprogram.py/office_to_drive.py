@@ -1,7 +1,10 @@
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
-import os
-import webbrowser
+try:
+    from pydrive.auth import GoogleAuth
+    from pydrive.drive import GoogleDrive
+    import os
+    import webbrowser
+except Exception as e:
+    print("Some of the required libraries are missing! {}".format(e))
 
 
 #Enter what file name you want to put in and the path to the file
