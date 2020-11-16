@@ -94,7 +94,6 @@ def instant_task(user_days):
         deleted_files_array = []
         try:
             #dmg, exe, app files arent going to be deleted
-            print("user_days 1: " + str(user_days))
             if (duration.days > user_days) and (p.find(".dmg" or ".exe" or ".app") == -1):
                 os.remove(home+'/Downloads/'+p)
                 deleted_files_array.append(p)
@@ -117,7 +116,7 @@ def instant_task(user_days):
 def master_cleanup_runner(default_x_days):
     user_days = read_data_for_days(default_x_days)
     user_days = float(user_days)
-    print("user_days: " + str(user_days))
+    print("cleanup minimum days: " + str(user_days))
     instant_task(user_days)
 
 
