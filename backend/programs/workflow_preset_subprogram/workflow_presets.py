@@ -63,7 +63,21 @@ def master_preset_adder(preset_array):
     else:
         print("This preset already exists!")
 
-
+# returns all existing preset names
+def get_presets():
+    # gets all of the presets data from preset_data.dat and organizes it
+    with open("backend/programs/workflow_preset_subprogram/preset_data.dat", 'r') as preset_data_file:
+        preset_lines_array = [line.rstrip() for line in preset_data_file]
+        preset_data_file.close()
+    
+    i = 0
+    preset_name_array = []
+    while i < len(preset_lines_array):
+        preset_line_array = preset_lines_array[i].split(" | ")
+        preset_name_array.append(preset_line_array[0])
+        i = i + 1
+    
+    return preset_name_array
 
 # determines whether a given item to open is a url or an application/file's file_path
 # child of master_preset_caller(action)
