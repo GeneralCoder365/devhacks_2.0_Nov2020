@@ -15,7 +15,7 @@ def master_office_to_drive_conversion(file, path):
 
     auth.LocalWebserverAuth()
 
-    drive = GoogleDrive(gauth)
+    drive = GoogleDrive(auth)
 
     path_search = path
      
