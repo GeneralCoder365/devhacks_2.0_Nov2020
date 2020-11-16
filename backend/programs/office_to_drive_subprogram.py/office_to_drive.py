@@ -11,9 +11,9 @@ except Exception as e:
 def master_office_to_drive_conversion(file, path):
     file_name = file
     
-    gauth = GoogleAuth()
+    auth = GoogleAuth()
 
-    gauth.LocalWebserverAuth()
+    auth.LocalWebserverAuth()
 
     drive = GoogleDrive(gauth)
 
